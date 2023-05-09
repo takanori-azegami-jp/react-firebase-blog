@@ -3,6 +3,7 @@ import './Home.css';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '../Firebase';
 
+
 const HOME = () => {
   const [postList, setPostList] = useState([]);
 
