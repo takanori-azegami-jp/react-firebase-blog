@@ -31,7 +31,7 @@ $ npm install firebase
 
 ## Font Awesome 環境構築
 
-[Set Up with React](https://fontawesome.com/docs/web/use-with/react/)
+- [Set Up with React](https://fontawesome.com/docs/web/use-with/react/)
 
 ```bash
 # Add SVG Core
