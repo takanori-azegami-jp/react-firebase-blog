@@ -27,6 +27,9 @@ $ npm start
 $ npm install firebase
 ```
 
+- [Cloud Firestore セキュリティ ルールを使ってみる]（https://firebase.google.com/docs/firestore/security/get-started?hl=ja）
+
+
 ## Font Awesome 環境構築
 
 [Set Up with React](https://fontawesome.com/docs/web/use-with/react/)
