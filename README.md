@@ -20,7 +20,7 @@ $ npm install react-router-dom
 $ npm start
 ```
 
-## Firebaxe 環境構築
+## Firebase 環境構築
 
 ```bash
 # Firebaseモジュール インストール
