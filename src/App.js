@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HOME from './components/HOME';
 import CreatePost from './components/CreatePost';
 import Login from './components/Login';
@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 import { useState } from 'react';
 
 function App() {
-  const [isAuth, setIsAuth] = useState(false);
+  const [isAuth, setIsAuth] = useState(localStorage.getItem('isAuth'));
 
   return (
     <Router>

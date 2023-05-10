@@ -2,6 +2,7 @@ import { signInWithPopup } from 'firebase/auth';
 import React from 'react';
 import { auth, provider } from '../Firebase';
 import { useNavigate } from 'react-router-dom';
+import './Login.css';
 
 const Login = ({ setIsAuth }) => {
   //リダイレクト先

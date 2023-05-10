@@ -18,6 +18,7 @@ const CreatePost = ({ isAuth }) => {
         username: auth.currentUser.displayName,
         id: auth.currentUser.uid,
       },
+      datetime: new Date().toLocaleString(),
     });
     navigate('/');
   };
@@ -26,7 +27,7 @@ const CreatePost = ({ isAuth }) => {
     if (!isAuth) {
       navigate('/login');
     }
-  }, []);
+  });
 
   return (
     <div className="createPostPage">
