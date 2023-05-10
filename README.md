@@ -20,16 +20,18 @@ $ npm install react-router-dom
 $ npm start
 ```
 
-## Firebaxe 環境構築
+## Firebase 環境構築
 
 ```bash
 # Firebaseモジュール インストール
 $ npm install firebase
 ```
+- [ウェブサイトで Firebase Authentication を使ってみる](https://firebase.google.com/docs/auth/web/start?hl=ja)
+- [Cloud Firestore を使ってみる](https://firebase.google.com/docs/firestore/quickstart?hl=ja)
 
 ## Font Awesome 環境構築
 
-[Set Up with React](https://fontawesome.com/docs/web/use-with/react/)
+- [Set Up with React](https://fontawesome.com/docs/web/use-with/react/)
 
 ```bash
 # Add SVG Core
